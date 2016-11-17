@@ -26,3 +26,5 @@
 
 1. С использованием awk `quantile_awk.sh`
 2. Без использования awk `quantile.sh`
+
+Для проверки codestyle скриптов необходимо использовать https://github.com/koalaman/shellcheck.
