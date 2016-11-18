@@ -1,5 +1,5 @@
 #!/bin/sh
 
-# Здесь ожидается решение без использования awk
+awk -f parse.awk | sort -n | awk -f quantile.awk
 
 exit 0
